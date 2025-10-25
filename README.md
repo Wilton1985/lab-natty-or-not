@@ -1,51 +1,54 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
+🧠 Explorando Conceitos de IA Generativa
+📘 Descrição
 
-## 🚀 Introdução
+Este projeto tem como objetivo consolidar o entendimento sobre conceitos fundamentais de Inteligência Artificial Generativa, através da implementação de um programa em Python que associa termos técnicos às suas respectivas descrições.
+O desafio faz parte da formação da DIO (Digital Innovation One), abordando temas como Token, Fine-tuning, Inference e Dataset.
 
-> Woooow! Look at this 👀
+🧩 Estrutura do Projeto
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
+O código recebe como entrada um termo e retorna a descrição correspondente, com base em um mapeamento pré-definido.
+Os termos válidos são:
 
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
+Token
 
-### Objetivos
+Fine-tuning
 
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
+Inference
 
-### Template
+Dataset
 
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+Cada termo é associado à sua definição técnica, reforçando o aprendizado dos fundamentos de modelos de linguagem e IA generativa.
 
-## 📒 Descrição
-Breve descrição do seu projeto
+🛠️ Tecnologias Utilizadas
 
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+Python 3
 
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+Manipulação de Entrada e Saída (STDIN / STDOUT)
 
-## 🚀 Resultados
-Apresente os resultados do seu projeto
+Lógica Condicional e Estruturas de Dados
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+Ambiente DIO (Digital Innovation One)
 
-### Exemplos e Insigths
+⚙️ Processo de Desenvolvimento
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
+Análise do desafio: entendimento do enunciado e definição das associações entre termos e descrições.
 
-## Links Interessantes
+Modelagem do código: utilização de um dicionário Python para armazenar os pares termo → definição.
 
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
+Implementação: leitura da entrada com sys.stdin.readline() e saída formatada com print().
 
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+Validação: testes com os exemplos fornecidos no enunciado para garantir conformidade com as regras de entrada e saída.
+
+📈 Resultados
+
+O script realiza corretamente a associação entre os conceitos de IA Generativa e suas descrições, demonstrando domínio de:
+
+Manipulação de dados em Python;
+
+Aplicação de conceitos de IA de forma prática;
+
+Boas práticas de desenvolvimento em desafios DIO.
+
+
+Este projeto reforça a importância de compreender os conceitos fundamentais da Inteligência Artificial, antes de aplicá-los em soluções mais complexas.
+A clareza entre teoria e prática é essencial para construir bases sólidas em IA Generativa, Machine Learning e Processamento de Linguagem Natural.
